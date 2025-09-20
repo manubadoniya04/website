@@ -103,6 +103,14 @@ color: #2887ff;
 
 }
 
+#check{
+  display: none;
+}
+
+#menu{
+  display: none;
+}
+
 /* navbar css end here */
 
 body {
@@ -606,14 +614,151 @@ table td:nth-child(3) {
 
 
 
-}
-        
 
-@media(max-width:"420px"){
+@media (max-width: 420px) {
+
+ 
+  
+  #navbar nav ul {
+    display: block;
+     
+  }
+
+  
+
+  /* First Page */
+
+  #firstpage {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .firstpage-content h1 {
+    font-size: 2rem;
+  }
+
+  .bus-image {
+    transform: translate(0);
+    margin-top: 20px;
+  }
+
+  .bus-image img {
+    width: 90%;
+  }
+
+  /* Second Page */
+
+  #Secondpage {
+    padding: 20px 10px;
+    height: auto;
+  }
+
+  .Dhams {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Dham {
+    width: 90%;
+  }
+
+  /* Third Page */
+  
+  #Thirdpage {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .content-container h1 {
+    font-size: 2rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .content-container p {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .Artiimage-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Fourth Page (Table Responsive) */
+  .container {
+    height: auto;
+    padding: 20px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* Footer */
+  #footer {
+    height: auto;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .footer-social a {
+    margin: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+      
+
+
+
+
+
 
 
 
 
 
   
-}
